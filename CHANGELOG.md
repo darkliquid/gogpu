@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- **wlr-layer-shell surfaces** — `Config.LayerShell` (Linux/Wayland) gives the window a `zwlr_layer_shell_v1` role instead of an `xdg_toplevel`, so gogpu can build shell components: panels, overlays, wallpapers and launchers. Layer, anchors, exclusive zone, keyboard interactivity, size and namespace are all configurable, and the surface renders through the same Vulkan path as an ordinary window (verified on niri: a full-output overlay surface compiled, configured and presented).
+- **wlr-layer-shell surfaces** — `Config.LayerShell` (Linux/Wayland) gives the window a `zwlr_layer_shell_v1` role instead of an `xdg_toplevel`, so gogpu can build shell components: panels, overlays, wallpapers and launchers. Layer, anchors, exclusive zone, keyboard interactivity, size and namespace are all configurable, and the surface renders through the same Vulkan path as an ordinary window (verified on niri: a full-output overlay surface compiled, configured and presented). See `examples/layer_shell` for a 100x100 anchored square.
 
 ### Fixed
 
